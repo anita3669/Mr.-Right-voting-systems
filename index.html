@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting System</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Voting System</h1>
+        <nav>
+            <ul>
+                <li><a href="#home" onclick="showSection('home')">Home</a></li>
+                <li><a href="#about" onclick="showSection('about')">About</a></li>
+                <li><a href="#vote" onclick="showSection('vote')">Vote</a></li>
+                <li><a href="#results" onclick="showSection('results')">Results</a></li>
+                <li><a href="#contact" onclick="showSection('contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hidden">
+            <h2>Home</h2>
+            <p>Welcome to our voting, the Mr. Right voting system. Participating in the voting process and ensuresthat your voice is heard. Mr. Right is here to make it a corruption free zone for you. Your vote will add up in the truth of whom you vote for because you believe that they will make a change in your life, that is, in the next five years to come. Feel free to express yourself in the vote because your vote matters and it will impact the whole citizens!</p>
+        </section>
+        <section id="about" class="hidden">
+            <h2>About</h2>
+            <p>Our voting system is designed to be secure, transparent, and easy to use. It makes sure that you are very comfortable with whom you vote for without any room for worries or fears.</p>
+            <p>This is about voting, that will make your heart smile after voting.</p>
+        </section>
+        <section id="vote" class="hidden">
+            <h2>Vote</h2>
+            <p>As the Mr. Right voters, your vote in the ongoing elections. Your vote matters. Make sure you are sure of whom you choose because it will affect your five years to come, like the basic needs. Your opinion is very much valued!</p>
+            <button onclick="location.href='vote.html'">Vote Now</button>
+        </section>
+        <section id="results" class="hidden">
+            <h2>Election Results</h2>
+            <p>Below are the latest results of the ongoing elections:</p>
+            <ul>
+                <li>Anita     : 45%</li>
+                <li>Grace     : 35%</li>
+                <li>Bidii     : 20%</li>
+                <li>Amani     : 56%</li>
+                <li>Ann       : 55%</li>
+            </ul>
+            <button onclick="location.href='results.html'">View Results</button>
+        </section>
+        <section id="contact" class="hidden">
+            <h2>Contact</h2>
+            <p>If you have any questions or need support, feel free to contact us. Our number is 0799456723. We are always available to offer you our services anytime you are in need, twenty-four seven. In case you experience any difficulty during the process of voting, don't hesitate to reach us even on our social media platforms as Mr. Right voters.</p>
+            <form method="POST" action="">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Voting System. All rights reserved.</p>
+    </footer>
+</body>
+</html>

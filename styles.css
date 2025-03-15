@@ -1,0 +1,49 @@
+body {
+    background-image: url('H5.avif');
+    background-size: cover;
+    font-size: 20px; /* Increase the base font size */
+}
+
+h1 {
+    font-size: 3.5em; /* Increase the font size for h1 */
+}
+
+h2 {
+    font-size: 2em; /* Increase the font size for h2 */
+}
+
+p, label, input, textarea, button {
+    font-size: 1.5em; /* Increase the font size for other elements */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea, form button {
+    margin-top: 5px;
+}
+
+.hidden {
+    display: none;
+}
